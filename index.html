@@ -10,6 +10,12 @@
     
 </head>
 <body>
+
+  <div class="responsive">
+    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/8mW2QBpQ5HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
     <div class="demo1">
         <div class="btn">ジャイロセンサーを許可</div>
         <!-- <div class="img"><span></span></div> -->
@@ -21,30 +27,10 @@
         </ul>
         </div>
 
-    <!-- <div class="responsive">
-        <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/8mW2QBpQ5HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div> -->
 
 </body>
 
 <script>
-
-// $(function() {
-//   $(“.btn”).on(“click”, function(){
-//     if(window.DeviceOrientationEvent){
-//       if(DeviceOrientationEvent.requestPermission){
-//         DeviceOrientationEvent.requestPermission().then(function(response){
-//           if(response === “granted”){
-//             $(window).on(“deviceorientation”, gyro);
-//           }
-//         });
-//       }else{
-//         $(window).on(“deviceorientation”, gyro);
-//       }
-//     }
-//   });
-// });
-
 
 // ジャイロセンサーが使用可能だったら
 if(window.DeviceOrientationEvent){
@@ -55,8 +41,8 @@ if(window.DeviceOrientationEvent){
       DeviceOrientationEvent.requestPermission().then(function(response){
         // リクエストが許可されたら
         if(response === "granted"){
-        　// 回転や傾きの変化を検知する「deviceorientation」を使い、「gyro()」を実行
-        　$(window).on("deviceorientation", gyro);
+         // 回転や傾きの変化を検知する「deviceorientation」を使い、「gyro()」を実行
+         $(window).on("deviceorientation", gyro);
         }
       });
     });
