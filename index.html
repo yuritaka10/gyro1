@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riding Simulator</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="apple-touch-icon" sizes="180x180" href="icon-192x192.png">
-
+      
     <script>
-      // ServiceWOrker
+    // ServiceWorker
       window.addEventListener('load', function () {
           if ('serviceWorker' in navigator) {
-              navigator.serviceWorker.register("/sw.js")
+              navigator.serviceWorker.register("sw.js")
                   .then(function (registration) {
                       console.log("serviceWorker registed.");
                   }).catch(function (error) {
@@ -23,6 +22,9 @@
           }
       });
   </script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
 
 </head>
 <body>
