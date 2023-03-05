@@ -3,12 +3,12 @@
 
 // Service Worker のバージョンとキャッシュする App Shell を定義する
 
-const NAME = 'qiita-post-app-v2-';
-const VERSION = '002';
+const NAME = 'gyro horse';
+const VERSION = '001';
 const CACHE_NAME = NAME + VERSION;
 const urlsToCache = [
-  './index.html',
-  './main.js',
+  'index.html',
+  'main.js',
 ];
 
 // Service Worker へファイルをインストール
