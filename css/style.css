@@ -8,16 +8,6 @@
     margin: 0 auto 24px;
     display: block;
     width: 194px;
-}
-
-.txt span {
-    font-size: 17px;
-    font-weight: bold;
-    color: #00c6b9;
-}
-
-.btn, .ranking-item-link-buttons a, .btn-wrap > a, .wp-block-freeform .btn-wrap > a
- {
     color: #fff;
     font-weight: bold;
     border-radius: 4px;
@@ -30,27 +20,25 @@
     border: 2px solid transparent;
     position: relative;
     transition: all 0.3s ease-in-out;
- }
-
- .img > span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 153px;
-    height: 276px;
-    border-radius: 18px;
-    background: rgb(29, 157, 214);
-    display: block;
 }
 
-.img {
-    position: relative;
-    width: 100%;
-    height: 357px;
-    display: block;
-    border: 1px solid #ddd8d8;
-    border-radius: 24px;
+.txt{
+    color: #fff;
 }
+.txt span {
+    font-size: 17px;
+    font-weight: bold;
+    color: #00c6b9;
+}
+
+ul{
+    padding-left:0;
+}
+
+li{
+    list-style:none;
+}
+
 
 * {
     padding: 0;
@@ -59,6 +47,13 @@
     overflow-wrap: break-word;
 }
 
-label, a, span, p, h1, h2, h3, h4, h5, h6, div, li, ul {
-    -webkit-tap-highlight-color:rgba(0,0,0,0) !important;
-}
+
+
+.box{
+    position: relative;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+  }
