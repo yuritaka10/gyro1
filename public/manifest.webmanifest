@@ -1,0 +1,29 @@
+{
+    "theme_color": "#f69435",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://yuritaka10.github.io/gyro1/",
+    "name": "Riding Gyro Simulator ",
+    "short_name": "gyro horse",
+    "icons": [
+        {
+            "src": "./icons/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons//favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

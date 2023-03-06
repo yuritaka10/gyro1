@@ -3,7 +3,7 @@
 
 // Service Worker のバージョンとキャッシュする App Shell を定義する
 
-const NAME = 'gyro horse';
+const NAME = 'gh';
 const VERSION = '001';
 const CACHE_NAME = NAME + VERSION;
 const urlsToCache = [
